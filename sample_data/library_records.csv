@@ -1,0 +1,51 @@
+Loan ID,Book ID,Book Title,Category,Student ID,Borrow Date,Due Date,Return Date,Loan Duration
+L001,CS101,Introduction to Algorithms,Computer Science,STU1001,2026-01-05,2026-01-19,2026-01-18,13
+L002,CS102,Clean Code: Agile Software Craftsmanship,Computer Science,STU1002,2026-01-08,2026-01-22,2026-01-20,12
+L003,MA201,Discrete Mathematics and Its Applications,Mathematics,STU1003,2026-01-12,2026-01-26,2026-01-25,13
+L004,MA202,Linear Algebra Done Right,Mathematics,STU1004,2026-01-15,2026-01-29,2026-01-27,12
+L005,EC301,The Art of Electronics,Electronics,STU1005,2026-01-18,2026-02-01,2026-02-05,18
+L006,EC302,Digital Design Principles,Electronics,STU1006,2026-01-20,2026-02-03,2026-02-01,12
+L007,LT401,To Kill a Mockingbird,Literature,STU1007,2026-01-22,2026-02-05,2026-02-04,13
+L008,LT402,1984: A Novel,Literature,STU1008,2026-01-25,2026-02-08,2026-02-07,13
+L009,PH501,University Physics with Modern Physics,Physics,STU1009,2026-01-27,2026-02-10,2026-02-12,16
+L010,PH502,Concepts of Modern Physics,Physics,STU1010,2026-01-29,2026-02-12,2026-02-10,12
+L011,CS103,Artificial Intelligence: A Modern Approach,Computer Science,STU1011,2026-02-02,2026-02-16,2026-02-15,13
+L012,CS104,Operating System Concepts,Computer Science,STU1012,2026-02-04,2026-02-18,2026-02-22,18
+L013,CS105,Computer Networking: Top-Down Approach,Computer Science,STU1013,2026-02-06,2026-02-20,2026-02-18,12
+L014,CS106,Database System Concepts,Computer Science,STU1014,2026-02-08,2026-02-22,2026-02-21,13
+L015,MA203,Calculus: Early Transcendentals,Mathematics,STU1015,2026-02-10,2026-02-24,2026-02-23,13
+L016,MA204,Probability and Statistics for Engineers,Mathematics,STU1016,2026-02-12,2026-02-26,2026-02-28,16
+L017,MA205,Advanced Engineering Mathematics,Mathematics,STU1017,2026-02-15,2026-03-01,2026-02-28,13
+L018,EC303,Microelectronic Circuits,Electronics,STU1018,2026-02-17,2026-03-03,2026-03-02,13
+L019,EC304,Signals and Systems,Electronics,STU1019,2026-02-20,2026-03-06,2026-03-10,18
+L020,LT403,The Great Gatsby,Literature,STU1020,2026-02-22,2026-03-08,2026-03-05,11
+L021,LT404,Pride and Prejudice,Literature,STU1021,2026-02-25,2026-03-11,2026-03-10,13
+L022,PH503,Feynman Lectures on Physics Vol 1,Physics,STU1022,2026-02-27,2026-03-13,2026-03-12,13
+L023,CS107,Python Crash Course,Computer Science,STU1023,2026-03-01,2026-03-15,2026-03-14,13
+L024,CS108,Designing Data-Intensive Applications,Computer Science,STU1024,2026-03-03,2026-03-17,2026-03-15,12
+L025,CS109,Structure and Interpretation of Computer Programs,Computer Science,STU1025,2026-03-05,2026-03-19,,
+L026,CS110,Compilers: Principles Techniques and Tools,Computer Science,STU1026,2026-03-07,2026-03-21,2026-03-25,18
+L027,CS111,Computer Architecture: Quantitative Approach,Computer Science,STU1027,2026-03-10,2026-03-24,2026-03-20,10
+L028,MA206,Abstract Algebra: Theory and Applications,Mathematics,STU1028,2026-03-12,2026-03-26,2026-03-24,12
+L029,MA207,Complex Variables and Applications,Mathematics,STU1029,2026-03-14,2026-03-28,2026-03-27,13
+L030,MA208,Differential Equations and Boundary Value Problems,Mathematics,STU1030,2026-03-16,2026-03-30,,
+L031,MA209,Numerical Analysis: Mathematics of Scientific Computing,Mathematics,STU1031,2026-03-18,2026-04-01,2026-03-30,12
+L032,EC305,Electromagnetic Fields and Waves,Electronics,STU1032,2026-03-20,2026-04-03,2026-04-01,12
+L033,EC306,Modern Control Engineering,Electronics,STU1033,2026-03-22,2026-04-05,2026-04-04,13
+L034,LT405,Brave New World,Literature,STU1034,2026-03-24,2026-04-07,2026-04-06,13
+L035,PH504,Classical Mechanics by John Taylor,Physics,STU1035,2026-03-26,2026-04-09,2026-04-08,13
+L036,PH505,Introduction to Electrodynamics by Griffiths,Physics,STU1036,2026-03-28,2026-04-11,2026-04-16,19
+L037,CS112,Deep Learning with Python,Computer Science,STU1037,2026-04-02,2026-04-16,2026-04-15,13
+L038,CS113,Learning SQL: Master SQL Fundamentals,Computer Science,STU1038,2026-04-04,2026-04-18,2026-04-17,13
+L039,CS114,Site Reliability Engineering,Computer Science,STU1039,2026-04-07,2026-04-21,2026-04-26,19
+L040,CS115,The Pragmatic Programmer,Computer Science,STU1040,2026-04-09,2026-04-23,2026-04-20,11
+L041,CS116,Cracking the Coding Interview,Computer Science,STU1041,2026-04-11,2026-04-25,,
+L042,MA210,Topology: A First Course,Mathematics,STU1042,2026-04-13,2026-04-27,2026-04-25,12
+L043,MA211,Graph Theory with Applications,Mathematics,STU1043,2026-04-15,2026-04-29,2026-05-04,19
+L044,MA212,Introduction to Real Analysis,Mathematics,STU1044,2026-04-17,2026-05-01,2026-04-30,13
+L045,EC307,VLSI Design Principles,Electronics,STU1045,2026-04-19,2026-05-03,2026-05-01,12
+L046,EC308,Communication Systems Engineering,Electronics,STU1046,2026-04-21,2026-05-05,2026-05-12,21
+L047,EC309,Embedded Systems: Real-Time Interfacing,Electronics,STU1047,2026-04-23,2026-05-07,,
+L048,LT406,Crime and Punishment,Literature,STU1048,2026-04-25,2026-05-09,2026-05-08,13
+L049,LT407,One Hundred Years of Solitude,Literature,STU1049,2026-04-27,2026-05-11,2026-05-16,19
+L050,PH506,Thermal Physics by Kittel,Physics,STU1050,2026-04-29,2026-05-13,2026-05-11,12
