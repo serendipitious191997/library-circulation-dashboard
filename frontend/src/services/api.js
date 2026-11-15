@@ -5,8 +5,24 @@
 
 import axios from 'axios';
 
-// Base API URL: uses environment variable if defined, otherwise falls back to local Flask server
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:5000/api';
+// Base API URL:
+// 1. Uses explicit VITE_API_BASE_URL if set in environment
+// 2. If running locally (localhost), defaults to local Flask server (http://127.0.0.1:5000/api)
+// 3. If running online (e.g. Vercel), automatically routes to live Render backend
+const getApiBaseUrl = () => {
+  if (import.meta.env.VITE_API_BASE_URL) {
+    return import.meta.env.VITE_API_BASE_URL;
+  }
+  if (typeof window !== 'undefined') {
+    const host = window.location.hostname;
+    if (host === 'localhost' || host === '127.0.0.1') {
+      return 'http://127.0.0.1:5000/api';
+    }
+  }
+  return 'https://library-circulation-dashboard.onrender.com/api';
+};
+
+const API_BASE_URL = getApiBaseUrl();
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
