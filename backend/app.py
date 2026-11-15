@@ -68,6 +68,24 @@ load_initial_dataset()
 # API ENDPOINTS
 # ============================================================================
 
+@app.route("/", methods=["GET"])
+def index():
+    """Root endpoint providing service status and links."""
+    return jsonify({
+        "status": "online",
+        "service": "Library Circulation & Demand API",
+        "endpoints": {
+            "health": "/api/health",
+            "dashboard": "/api/dashboard",
+            "records": "/api/records",
+            "categories": "/api/category-analysis",
+            "monthly_trends": "/api/monthly-trends",
+            "duration": "/api/duration-analysis",
+            "overdue": "/api/overdue",
+            "validation": "/api/validation"
+        }
+    }), 200
+
 @app.route("/api/health", methods=["GET"])
 def health_check():
     """Health status and general environment information."""
