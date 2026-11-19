@@ -2,6 +2,8 @@
 
 WEBSITE : https://library-circulation-dashboard-ffa7.vercel.app
 
+REPORT : https://drive.google.com/file/d/1nhHO5jcLOUMGEWWogxY3u9Zte9w2S2MQ/view?usp=sharing
+
 > **College Python Programming Laboratory Project**  
 > A full-stack, responsive web application for library circulation management, demand forecasting, loan duration auditing, and overdue book tracking.
 
